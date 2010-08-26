@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Bookmark Picker</string>
+
+<string name="btnOK">OK</string>
+<string name="btnSelectAll">select all</string>
+<string name="btnTitle">title</string>
+<string name="btnDetail">detail</string>
+
+<string name="etTest">tap to test this.</string>
+
+<string name="desc">
+This application is a mushroom extension of simeji IME.
+Normally this application is called from IME to input information from bookmark in default browser.
+</string>
+<string name="empty">empty bookmarks.</string>
+
+</resources>

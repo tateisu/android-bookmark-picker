@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ブックマークピッカー</string>
+
+    <string name="btnOK">OK</string>
+    <string name="btnSelectAll">全て選択</string>
+    <string name="btnTitle">タイトル</string>
+    <string name="btnDetail">詳細</string>
+
+    <string name="etTest">ここをタップして試してみてください</string>
+
+    <string name="desc">ブックマークの情報を挿入できるマッシュルームアプリです。\n通常はsimejiなどのIMEから起動されます。</string>
+    <string name="empty">ブックマークがありません</string>
+
+</resources>
