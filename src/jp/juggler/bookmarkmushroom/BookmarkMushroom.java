@@ -57,6 +57,7 @@ public class BookmarkMushroom extends Activity {
 		tbDetail.setChecked(pref.getBoolean("tbDetail",true));
 		
 		tbTitle.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+			@Override
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 				Editor editor = pref.edit();
 				editor.putBoolean("tbTitle",isChecked);
@@ -64,6 +65,7 @@ public class BookmarkMushroom extends Activity {
 			}
 		});
 		tbDetail.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+			@Override
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 				Editor editor = pref.edit();
 				editor.putBoolean("tbDetail",isChecked);
@@ -72,6 +74,7 @@ public class BookmarkMushroom extends Activity {
 		});
 		
 		btnOK.setOnClickListener(new OnClickListener() {
+			@Override
 			public void onClick(View v) {
 				boolean bTitle = tbTitle.isChecked();
 				boolean bDetail = tbDetail.isChecked();
@@ -94,6 +97,7 @@ public class BookmarkMushroom extends Activity {
 		});
 		
 		btnSelectAll.setOnClickListener(new OnClickListener() {
+			@Override
 			public void onClick(View v) {
 				int nItem = 0;
 				int nSelect = 0;
