@@ -39,7 +39,7 @@ public class CheckboxAdapter extends ArrayAdapter<CheckboxItem>{
     	// see http://d.hatena.ne.jp/mumoshu/20100606/1275840016
     	final CheckboxItem item = this.getItem(position);
 		((CheckBox)view.findViewById(R.id.checked)).setOnCheckedChangeListener(new OnCheckedChangeListener() {
-			@Override public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
     			item.checked = isChecked;
 			}
 		});
